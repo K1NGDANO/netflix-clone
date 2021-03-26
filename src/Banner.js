@@ -43,7 +43,7 @@ function Banner() {
                     <button className="banner__button">Play</button>
                     <button className="banner__button">My List</button>
             </div>
-           
+
             <h1 className="banner__description">{movie?.overview}
             {truncate(movie?.overview, 150)}
             </h1>
@@ -54,4 +54,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner;
